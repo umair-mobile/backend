@@ -1,0 +1,16 @@
+# Core Django backend
+Django>=4.0
+djangorestframework>=3.14
+
+# File parsing
+PyMuPDF==1.23.7         # for reading PDFs (imported as fitz)
+python-docx>=0.8.11     # for handling Word .docx files
+chardet>=5.2.0          # for detecting file encodings
+
+# Semantic similarity (RoBERTa)
+sentence-transformers>=2.2.2
+torch>=1.12.0
+transformers>=4.21.1
+scipy>=1.7.3
+
+
